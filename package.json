@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline && tsc --emitDeclarationOnly"
+    "rm:dist": "rm -rf dist",
+    "build": "npm run rm:dist && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline && tsc --emitDeclarationOnly"
   },
   "peerDependencies": {
     "react": "^18.0.0",
