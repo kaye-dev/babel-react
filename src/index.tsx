@@ -11,7 +11,7 @@ export function Hello(props: Props): React.JSX.Element {
   return (
     <div>
       <h1>{props.title}</h1>
-      <Message message="Hello" />
+      <Message message={props.message} />
     </div>
   );
 }
