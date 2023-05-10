@@ -3,7 +3,7 @@ type Props = {
   message: string;
 };
 
-export function Message(props: Props) {
+export function Message(props: Props): React.JSX.Element {
   return (
     <div>
       <p>{props.message}</p>
