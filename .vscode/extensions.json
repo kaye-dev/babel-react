@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dsznajder.es7-react-js-snippets",
+    "vunguyentuan.vscode-css-variables",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "styled-components.vscode-styled-components",
+    "unifiedjs.vscode-mdx",
+    "IronGeek.vscode-env",
+    "streetsidesoftware.code-spell-checker",
+    "wayou.vscode-todo-highlight",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "yoavbls.pretty-ts-errors"
+  ]
+}

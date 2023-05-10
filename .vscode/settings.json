@@ -1,0 +1,10 @@
+{
+  "cSpell.words": ["Svgr"],
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true
+  },
+  "typescript.referencesCodeLens.enabled": true
+  // "typescript.inlayHints.parameterNames.enabled": "all"
+}
