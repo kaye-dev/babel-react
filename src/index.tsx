@@ -1,3 +1,4 @@
+import React from "react";
 import { Message } from "./ui/elements/message";
 
 export function Hello() {
