@@ -1,28 +1,21 @@
 {
   "name": "kaye-hello",
-  "version": "0.0.1",
-  "repository": "git@github.com:keien-nishikawa/kaye-hello.git",
-  "author": "keien-nishikawa",
-  "license": "UNLICENSED",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Hello component for React",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline"
   },
-  "engines": {
-    "node": "16"
-  },
-  "dependencies": {
-    "@emotion/css": "^11.10.6",
-    "@emotion/react": "^11.10.6",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+  "peerDependencies": {
+    "react": "^18.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@types/node": "^14.18.33",
-    "@types/react": "^18.0.25",
-    "prettier": "^2.4.1",
-    "typescript": "^4.8.4"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "typescript": "^4.5.4"
   }
 }

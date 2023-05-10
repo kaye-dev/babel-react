@@ -1,27 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
+    "target": "esnext",
+    "module": "esnext",
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "strict": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
-    "jsxImportSource": "@emotion/react",
-    "baseUrl": "./",
-    "types": ["@emotion/react/types/css-prop"],
-    "allowJs": false,
-    "sourceMap": true,
-    "noUncheckedIndexedAccess": true,
-    "noEmit": false,
-    "incremental": true,
-    "lib": ["ESNext", "dom"]
+    "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["node_modules"],
-  "include": ["src/*.ts", "src/*.tsx", "types/**/*"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
