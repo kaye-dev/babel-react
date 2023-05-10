@@ -1,6 +1,7 @@
 import React from "react";
+import { Message as MessageType } from "../../../types/Message";
 type Props = {
-  message: string;
+  message: MessageType;
 };
 
 export function Message(props: Props): React.JSX.Element {

@@ -5,7 +5,7 @@ export function Hello(): React.JSX.Element {
   return (
     <div>
       <h1>Hello | KAYE</h1>
-      <Message message="TEST" />
+      <Message message="Hello" />
     </div>
   );
 }
