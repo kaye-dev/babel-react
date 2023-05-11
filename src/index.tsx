@@ -1,3 +1,4 @@
+import React from "react";
 import { Message } from "./ui/elements/Message";
 import { TitleType, MessageType } from "./types";
 import { AppIcon } from "./ui/svg/AppIcon";
