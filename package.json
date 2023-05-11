@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rm:dist": "rm -rf dist",
-    "build": "npm run rm:dist && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline && tsc --emitDeclarationOnly",
+    "build": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline && tsc --emitDeclarationOnly",
     "postinstall": "npm run build"
   },
   "peerDependencies": {
