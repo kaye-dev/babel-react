@@ -1,4 +1,3 @@
-import React from "react";
 import { Message } from "./ui/elements/Message";
 import { TitleType, MessageType } from "./types";
 import { AppIcon } from "./ui/svg/AppIcon";
@@ -8,7 +7,7 @@ type Props = {
   message: MessageType;
 };
 
-export function Hello(props: Props): React.JSX.Element {
+export function Hello(props: Props) {
   return (
     <div>
       <h1>{props.title}</h1>
