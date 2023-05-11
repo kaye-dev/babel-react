@@ -1,6 +1,6 @@
 {
-  "name": "kaye-hello",
-  "version": "1.0.0",
+  "name": "babel-react",
+  "version": "0.0.1",
   "description": "Hello component for React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
