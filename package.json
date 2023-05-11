@@ -6,8 +6,9 @@
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "rollup -c -w",
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "postinstall": "npm run build"
   },
   "peerDependencies": {
     "@emotion/css": "^11.10.6",
