@@ -12,8 +12,8 @@ export function Hello(props: Props): React.JSX.Element {
   return (
     <div>
       <h1>{props.title}</h1>
-      <AppIcon width={24} />
       <Message message={props.message} />
+      <AppIcon width={24} />
     </div>
   );
 }
