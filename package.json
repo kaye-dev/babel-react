@@ -3,16 +3,16 @@
   "version": "0.0.1",
   "description": "Hello component for React",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "rm:dist": "rm -rf dist",
-    "build": "npm run rm:dist && babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline && tsc --emitDeclarationOnly",
-    "postinstall": "npm run build"
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
     "@emotion/css": "^11.10.6",
-    "@emotion/react": "^11.10.6"
+    "@emotion/react": "^11.10.6",
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -20,7 +20,14 @@
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
-    "typescript": "^4.5.4",
-    "@types/react": "^18.0.0"
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@types/react": "^18.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.5.4"
   }
 }
