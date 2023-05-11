@@ -7,7 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "postinstall": "npm run build"
   },
   "peerDependencies": {
     "@emotion/css": "^11.10.6",
