@@ -1,7 +1,7 @@
 import React from "react";
-import { Message } from "./ui/elements/message";
+import { Message } from "./ui/elements/Message";
 import { TitleType, MessageType } from "./types";
-import { AppIcon } from "./ui/elements/AppIcon";
+import { AppIcon } from "./ui/svg/AppIcon";
 
 type Props = {
   title: TitleType;
