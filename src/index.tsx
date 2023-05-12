@@ -11,8 +11,8 @@ type Props = {
 export function Hello(props: Props) {
   return (
     <div>
-      <h1>{props.title}</h1>
       <AppIcon width={24} />
+      <h1>{props.title}</h1>
       <Message message={props.message} />
     </div>
   );
