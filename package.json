@@ -1,7 +1,7 @@
 {
   "name": "babel-react",
   "version": "0.0.1",
-  "description": "Hello component for React",
+  "description": "A React-based WYSIWYG editor",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
