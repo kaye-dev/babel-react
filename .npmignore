@@ -3,7 +3,6 @@
 # ディレクトリ
 node_modules
 docs
-src
 # ファイル
 package-lock.json
 pull_request_template.md
