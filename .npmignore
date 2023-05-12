@@ -9,4 +9,3 @@ package-lock.json
 pull_request_template.md
 README.md
 tsconfig.json
-rollup.config.js
