@@ -1,4 +1,3 @@
-import React from "react";
 import { MessageType } from "../../../types";
 
 type Props = {
@@ -6,9 +5,5 @@ type Props = {
 };
 
 export function Message(props: Props) {
-  return (
-    <div>
-      <p>{props.message}</p>
-    </div>
-  );
+  return <p>{props.message}</p>;
 }
