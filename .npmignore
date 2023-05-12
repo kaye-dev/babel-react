@@ -1,9 +1,12 @@
 .vscode
 .github
-/node_modules
-/docs
-package-lock.json
+# ディレクトリ
+node_modules
+docs
+dist
+# ファイル
 package.json
+package-lock.json
 pull_request_template.md
 README.md
 tsconfig.json
